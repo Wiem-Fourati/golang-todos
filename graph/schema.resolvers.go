@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/wiemsastec/gqlgen-todos/graph/generated"
-	"github.com/wiemsastec/gqlgen-todos/graph/model"
+	"github.com/Wiem-Fourati/gqlgen-todos/graph/generated"
+	"github.com/Wiem-Fourati/gqlgen-todos/graph/model"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {

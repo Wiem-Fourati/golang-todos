@@ -1,4 +1,4 @@
-module github.com/wiemsastec/gqlgen-todos
+module github.com/Wiem-Fourati/gqlgen-todos
 
 go 1.13
 
